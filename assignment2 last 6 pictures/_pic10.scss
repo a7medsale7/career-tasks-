@@ -1,0 +1,168 @@
+.container{
+    background-color: #f3f3f9;
+    margin-top: 20px;
+}
+
+.intro{
+    color: #536395;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: normal;
+    padding-top: 20px;
+
+}
+.intro2{
+    text-align: center;
+    color: #9da0ac;
+    text-transform: capitalize;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.user label{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.user input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.user input::placeholder{
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.txt10{
+display: flex;
+}
+
+
+.txt10 label{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.pass input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.pass input::placeholder{
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.pass p{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+.check0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.check{
+    margin-right: 10px;
+    
+}
+
+.lil10{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0ab39c;
+    border-radius: 50px;
+    margin: 10px auto;
+    height: 50px;
+}
+.lil10 a{
+    font-size: 22px;
+    color: white;
+    font-weight: 600px;
+}
+
+
+.end{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    position: relative;
+}
+.end::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    transform: translate(119px, 13px)();
+
+
+}
+.end::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    transform:translate(-217px, 13px);
+}
+
+.ico10{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.git{
+    width: fit-content;
+    background-color: #212529;
+    border-radius: 5px;
+
+}
+.face{
+    width: fit-content;
+    background-color: #405189;
+    border-radius: 5px;
+
+}
+.google{
+    width: fit-content;
+    background-color: #f06548;
+    border-radius: 5px;
+
+}
+.x{
+    width: fit-content;
+    background-color: #299cdb;
+    border-radius: 5px;
+
+}
+.ico10 i{
+    color: white;
+    padding: 20px;
+
+}

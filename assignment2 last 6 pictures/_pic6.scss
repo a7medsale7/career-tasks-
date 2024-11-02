@@ -1,0 +1,56 @@
+.container{
+    background-color: #f3f3f9;
+    margin-top: 20px;
+}
+.image{
+    background-image: url(image/landing.jpg);
+    background-size: cover;
+    margin:10px;
+    position: relative;
+}
+.image::before{
+content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 70%);
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.txt6{
+    position: relative;
+    padding: 20px;
+    width: 63%;
+}
+.image .txt6 h2{
+    position: relative;
+    margin: 20px 0 ;
+    color: white;
+    margin-left: 30px;
+border-bottom: 1px solid white;
+font-size: 20px;
+
+}
+.image .txt6 p{
+    margin: 20px 0 ;
+    margin-left: 30px;
+    border-bottom: 1px solid white;
+    color: white;
+    position: relative;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.lil6{
+    text-align: center;
+}
+.txt6 .lil6 a{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+.lil6 i{
+    color: white;
+    margin-left: 5px;
+    
+}
