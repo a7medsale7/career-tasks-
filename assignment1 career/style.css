@@ -1,0 +1,203 @@
+.main {
+    max-width: 100%;
+    text-align: center;
+    gap: 10px;
+}
+
+.main button {
+    width: 5%;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main button:nth-child(1) {
+    background-color: #405189;
+}
+
+.main button:nth-child(2) {
+    background-color: #3577f1;
+}
+
+.main button:nth-child(3) {
+    background-color: #0ab39c;
+}
+
+.main button:nth-child(4) {
+    background-color: #299cdb;
+}
+
+.main button:nth-child(5) {
+    background-color: #f7b84b;
+}
+
+.main button:nth-child(6) {
+    background-color: #f06548;
+}
+
+.main button:nth-child(7) {
+    background-color: #212529;
+}
+
+.task2 h2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.task2 span {
+    color: red;
+}
+
+.task2 p {
+    color: #a4a4b8;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+form input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid #d9dee3;
+}
+
+input::placeholder {
+    padding: 10px;
+    font-size: 18px;
+    color: #d9dee3;
+}
+
+textarea::placeholder {
+    padding: 10px;
+    font-size: 18px;
+    color: #d9dee3;
+}
+
+form label {
+    font-size: 20px;
+}
+
+textarea {
+    width: 80%;
+}
+
+.link {
+    background-color: #405189;
+    width: fit-content;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 70%;
+    padding: 10px 30px;
+}
+
+.link a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 50px 20px;
+}
+
+.task3 {
+    margin: 50px 0;
+}
+
+.task3 h2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.task3 span {
+    color: red;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.table-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+a {
+    color: #20c997;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.confirmed {
+    background-color: #28a745;
+}
+
+.waiting {
+    background-color: #ffc107;
+}
+
+.cancelled {
+    background-color: #dc3545;
+}
+
+.task4 {
+    background-color: #990866;
+
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.task4 .cont {
+    background-color: #299cdb;
+    padding: 100px 0;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.task4 .cont h3 {
+    margin-top: -80px;
+}
