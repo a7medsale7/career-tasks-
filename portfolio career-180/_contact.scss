@@ -1,0 +1,18 @@
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+    margin-top: -20px;
+}
+.contact i{
+    color: var(--main-color);
+    font-size: 35px;
+    margin-top: 15px;
+}
+.contact .box::before{
+content: '';
+height: 100%;
+border-right: 3px solid var(--main-color);
+}
+

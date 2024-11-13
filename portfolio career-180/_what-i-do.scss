@@ -1,0 +1,18 @@
+.skills{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+}
+.skills .box{
+    background-color: var(--section-color);
+    padding: 20px 20px 10px 20px;
+ border: 1px solid rgb(202 198 198);
+ border-radius: 10px;
+}
+.skills .box .image img{
+    border-radius: 10px;
+}
+.skills .box p{
+    color: #9c9c9c;
+    line-height: 1.6;
+}

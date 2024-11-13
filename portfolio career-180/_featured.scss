@@ -1,0 +1,46 @@
+.featured{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 50px;
+}
+.featured .box{
+    position: relative;
+}
+.featured .box .image{
+    max-width: 100%;
+}
+.featured .box .image img{
+    max-width: 100%;
+}
+.featured .box .tech{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+.featured .box .tech .link{
+   background-color: var(--main-color);
+   border-radius: 10px;
+   padding: 5px 10px 5px 5px;
+   display: flex;
+   justify-content: flex-start;   
+}
+.featured .box .tech .link a{
+    color: white;
+}
+.featured .box .arrow{
+    background-color: rgba(250,250,250,255);
+    border-radius: 30%;
+    padding: 10px;
+    margin-left: 100px;
+}
+.featured .box:hover img{
+    transform:skewX(5deg);
+    width: 100%;
+  transition: transform 0.3s ease;
+  filter: grayscale(100%);
+  filter: blur(1px);
+}
+
+
+
